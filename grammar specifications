@@ -1,4 +1,9 @@
 op - symbol
 ----|------ 
-not - ! 
-nand - @
+not - not  
+nand - nand
+or - or
+xor - xor
+xnor - xnor
+nor - nor
+and - and
