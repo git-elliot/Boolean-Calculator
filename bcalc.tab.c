@@ -471,8 +471,8 @@ static const yytype_uint16 yytoknum[] =
 static const yytype_int8 yypact[] =
 {
      -11,     2,   -11,   -11,   -10,    15,    15,    11,    37,    15,
-     -11,    37,    28,   -11,    17,    15,    15,    15,    15,    15,
-      15,    37,   -11,    -7,    37,    37,    37,    37,    37,    37
+     -11,   -11,    28,   -11,    17,    15,    15,    15,    15,    15,
+      15,    37,   -11,    -7,   -11,   -11,   -11,   -11,   -11,   -11
 };
 
   /* YYDEFACT[STATE-NUM] -- Default reduction number in state STATE-NUM.
