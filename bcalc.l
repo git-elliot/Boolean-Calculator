@@ -21,7 +21,7 @@ nor return NOR;
            return BOOLEAN;
         }
 
-[()=\n] { return *yytext; }
+[,()=\n] { return *yytext; }
 [ \t] ;
 . yyerror("invalid character");
 %%
