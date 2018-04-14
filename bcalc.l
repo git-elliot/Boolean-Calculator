@@ -23,6 +23,7 @@ nor return NOR;
 
 [,()=\n] { return *yytext; }
 [ \t] ;
+,  {return *yytext; } 
 . yyerror("invalid character");
 %%
 int yywrap(void) {

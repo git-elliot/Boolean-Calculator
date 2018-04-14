@@ -16,7 +16,11 @@ program statement '\n'
 statement:
 expr { printf("%d\n", $1); }
 | VARIABLE '=' expr { sym[$1] = $3; }
+<<<<<<< HEAD
 | statement ',' statement
+=======
+| statement ',' VARIABLE '=' expr  { sym[$3] = $5; }
+>>>>>>> 8535beb40d964ee047afb78f2f46e355c42f8eb1
 ;
 
 
