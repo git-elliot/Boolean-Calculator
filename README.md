@@ -1,7 +1,7 @@
 # Boolean-Calculator
 
 Boolean calculator for lex and yacc which performs operations like not, and, or, nor, xnor, nand, etc.
-Check [grammar_specification](grammar_specification) file for more information about grammar used in this calculator.
+Check [grammar_specifications](grammar_specifications) file for more information about grammar used in this calculator.
 
 # How to compile 
 
